@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: rgb(0, 0, 0)
+}
+
+.text {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 100%;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+.submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%
+  }
+
+#time {
+    font-size: 8rem;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.6rem
+}
+
+@media(max-width:700px) {
+    #time {
+        font-size: 6rem;
+    }
+}
